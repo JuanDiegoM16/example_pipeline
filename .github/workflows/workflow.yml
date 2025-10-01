@@ -12,7 +12,7 @@ jobs:
 
       - name: Crear clave ssh
         env:
-          ssh_key: $ {{ secrets.SSH_KEY}}
+          ssh_key: ${{ secrets.SSH_KEY}}
 
 
         run: |
