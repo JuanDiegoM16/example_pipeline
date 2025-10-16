@@ -16,6 +16,5 @@ jobs:
         with:
           python version: '3.10'
 
-      - run: pip install unittest
-      
+      - run: pip install -r requeriments.txt
       - run: python main_test.py
